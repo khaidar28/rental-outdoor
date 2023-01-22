@@ -341,14 +341,27 @@ footer .credit a {
     transform: scaleX(0.2);
   }
 
+  .hero .content p {
+    font-weight: 300;
+  }
+
   /* about */
   .about .row {
     flex-wrap: wrap;
   }
 
+  .about .row .content-about p {
+    font-weight: 300;
+  }
+
   /* menu */
   .menu p {
     font-size: 1.6;
+  }
+
+  .menu p,
+  .contact p {
+    font-weight: 300;
   }
 
   .contact .row {
